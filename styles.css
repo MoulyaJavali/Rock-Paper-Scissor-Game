@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color:black;
+}
+
+h1{
+    margin-top: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choices{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+
+.choice{
+    height: 180px;
+    width: 180px;
+    border-radius:30px;
+
+}
+
+.choice:hover{
+    border-radius:30px;
+    border:2px solid rgb(156, 156, 156);
+    cursor: pointer;
+}
+img{
+    height: 180px;
+    width: 180px;
+    border-radius:30px;
+}
+
+.score p{
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    
+}
+
+#user-score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#comp-score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.score-board{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+
+}
+
+#msg{
+color: white;
+font-size: 26px;
+display: flex;
+justify-content: center;
+align-items: inline;
+border: 2px solid white;
+padding: 10px 10px 10px 10px;
+border-radius: 30px;
+}
+
+.reset{
+color:white;
+background-color: black;
+font-size: 23px;
+display: flex;
+justify-content: center;
+align-items: inline;
+border: 2px solid white;
+padding: 10px 10px 10px 10px;
+border-radius: 30px;
+}
+
+
+.msg-container{
+display: flex;
+margin-top: 40px;
+justify-content: center;
+align-items: center;
+gap:2rem;
+}
